@@ -1,0 +1,110 @@
+/*div {
+    border: solid 1px;
+}*/
+
+body {
+    align-items: center;
+    /* margin: 0;*/
+    background-color: #EFEFEF;
+}
+
+.mainContainer {
+    /*border: solid 1px;*/
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin: auto;
+    -webkit-box-shadow: -12px 10px 18px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -12px 10px 18px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -12px 10px 18px -1px rgba(0, 0, 0, 0.75);
+    background-color: #000000;
+}
+
+.header {
+    /*border: solid 1px;*/
+    width: 100%;
+    height: 250px;
+    display: inline-flex;
+    background-color: #00506B;
+}
+
+.data {
+    /*border: solid 1px;*/
+    width: 70%;
+}
+
+.name {
+    font-family: inter-standart;
+    color: #ffff;
+    padding-left: 15px;
+    font-size: 1.5em;
+}
+
+.info {
+    font-family: inter-standart;
+    color: #ffff;
+    padding-left: 30px;
+}
+
+.imgData {
+    /*border: solid 1px;*/
+    width: 30%;
+}
+
+.imgData img {
+    width: 65%;
+    height: 80%;
+    margin-top: 25px;
+    margin-left: 30px;
+    -webkit-box-shadow: 0px 0px 0px 9px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 0px 9px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 0px 9px rgba(255, 255, 255, 1);
+}
+
+.infContainer {
+    /*border: solid 1px;*/
+    width: 100%;
+    display: flex;
+    height: au;
+}
+
+.degree {
+    /*border: solid 1px;*/
+    height: 100%;
+    width: 60%;
+    display: inline-block;
+    background-color: #FFFFFF;
+    font-family: inter-standart;
+}
+
+.secondary,
+.hSchool,
+.uni,
+.firstJob,
+.secondJob,
+.projects {
+    padding: 10px 0px 10px 30px;
+}
+
+.section {
+    padding: 10px;
+}
+
+.skills {
+    /*border: solid 1px;*/
+    height: auto;
+    width: 40%;
+    display: inline-block;
+    background-color: #9F9F9F;
+    font-family: inter-standart;
+}
+
+.section {
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: inter-standart;
+    src: url(../Fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
